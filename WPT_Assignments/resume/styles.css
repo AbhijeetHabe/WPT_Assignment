@@ -8,21 +8,31 @@ body {
     flex-direction: column;
 }
 
+.headline {
+    font-family: serif;
+    font-weight: 1000;
+    margin-top: 10px;
+}
+
+hr {
+    height: 2px;
+}
+
 .image {
-    width: 0;
-    height: 0;
+    width: 10px;
+    height: 10px;
     display: flex;
     align-items: flex-start;
 }
 table {
     width: 90vw;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-right: 5px;
 }
 
 .address {
     display: flex;
     justify-content: center;
-    padding: 0;
-    margin: 0;
+    padding: 2px;
+    margin: 2px;
 }
