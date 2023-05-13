@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box">
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem
+          suscipit blanditiis ea, ipsam labore non. Explicabo animi possimus,
+          laborum exercitationem dolor rem. Maxime earum suscipit consequuntur
+          tempore corporis exercitationem, mollitia, ullam, natus autem deserunt
+          deleniti. Doloremque nemo, sunt sint odio culpa tempora blanditiis
+          tempore provident. Delectus suscipit labore nam voluptatibus!
+        </p>
+        <input id="add-to-cart" type="button" value="Add To Cart" />
+        <div>
+          <input
+            type="button"
+            value="Increase font"
+            onclick="applyFont('21px')"
+          />
+          <input
+            type="button"
+            value="Decrease font"
+            onclick="applyFont('15px')"
+          />
+          <input type="button" value="CHANGE COLOR" onclick="changeColor()" />
+          <input
+            type="button"
+            value="Disable | Hide"
+            onclick="applyAvailability(false)"
+          />
+          <input
+            type="button"
+            value="Enable | Show"
+            onclick="applyAvailability(true)"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
