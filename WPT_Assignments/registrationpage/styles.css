@@ -1,0 +1,12 @@
+h1 {
+    border: 2px solid black;
+}
+
+.needs-validation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: white;
+}
