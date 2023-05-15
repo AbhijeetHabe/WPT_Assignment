@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <title>MyApp</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <a href="#" class="navbar-brand mb-0 h1">
+          <img
+            class="d-inline-block align-top"
+            src="images.png"
+            width="30"
+            height="30"
+            alt="webpage"
+          />
+          Navbar
+        </a>
+        <button
+          type="button"
+          class="navbar-toggler"
+          data-bs-target="#navbarNav"
+          data-bs-toggle="collapse"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a href="#" class="nav-link active" active> Home </a>
+            </li>
+            <li class="nav-item active">
+              <a href="#" class="nav-link active"> Features </a>
+            </li>
+            <li class="nav-item active">
+              <a href="#" class="nav-link active"> Pricing </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              style="height: 500px; width: 600px; object-fit: cover"
+              src="images1.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              style="height: 500px; width: 600px; object-fit: cover"
+              src="images2.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              style="height: 500px; width: 600px; object-fit: cover"
+              src="images3.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseOne"
+              aria-expanded="false"
+              aria-controls="flush-collapseOne"
+            >
+              How to gain knowledge?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseOne"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              To gain knowledge, one must engage in the process of learning
+              through various means such as reading, observing, listening, and
+              practicing. It is important to have a curious and open-minded
+              attitude, seek out new information, and critically evaluate
+              sources. Consistent effort and dedication to learning can help
+              expand one's knowledge and understanding of the world.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseTwo"
+              aria-expanded="false"
+              aria-controls="flush-collapseTwo"
+            >
+              Key rules to achieve success in short term?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseTwo"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              Set specific and measurable goals: Identify what you want to
+              achieve and create a plan with clear, measurable objectives.
+              <br />
+              Prioritize tasks: Focus on the most important tasks that will help
+              you achieve your goals, and avoid distractions.
+              <br />
+              Develop a routine: Establish a daily routine that allows you to
+              work consistently towards your goals.
+              <br />
+              Take action: Take consistent action towards your goals, even if it
+              means starting small.
+              <br />
+              Stay motivated: Keep yourself motivated by celebrating small
+              successes and reminding yourself of your larger goals.
+              <br />
+              Learn from mistakes: Don't be afraid to make mistakes, but make
+              sure to learn from them and adjust your approach as needed. Seek
+              feedback: Ask for feedback from others to help you improve and
+              stay on track.
+              <br />
+              Stay organized: Keep track of your progress and stay organized to
+              help you stay focused and avoid unnecessary stress.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#flush-collapseThree"
+              aria-expanded="false"
+              aria-controls="flush-collapseThree"
+            >
+              What to do after achieving our goals?
+            </button>
+          </h2>
+          <div
+            id="flush-collapseThree"
+            class="accordion-collapse collapse"
+            data-bs-parent="#accordionFlushExample"
+          >
+            <div class="accordion-body">
+              After achieving our goals, we should celebrate, set new goals,
+              evaluate our progress, continue learning, help others, and take
+              time to enjoy the present moment.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
