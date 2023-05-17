@@ -21,7 +21,7 @@ if (str) {
 }
 
 let str1 = ""
-if (str) {
+if (str1) {
     console.log("I am in if block")
 } else {
     console.log("I am in else block")
