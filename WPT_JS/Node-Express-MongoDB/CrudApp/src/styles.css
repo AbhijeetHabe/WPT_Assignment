@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#users-container {
+    margin-top: 50px;
+}
+
+#user-list {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#user-list th,
+#user-list td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#user-list th {
+    background-color: #f2f2f2;
+}
+
+.delete-button,
+.edit-button {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.delete-button {
+    background-color: #ff0000;
+    color: #fff;
+    border: none;
+}
+
+.edit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+#add-user-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#add-user-form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    padding: 5px 10px;
+}
+
+#back-button {
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+a {
+    display: inline-block;
+    margin-bottom: 10px;
+}
